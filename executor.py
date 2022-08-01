@@ -5,7 +5,7 @@ import json
 from glob import glob
 from table_extractor_code import *
 
-class TableExtractor(Executor):
+class PDFTableExtractor(Executor):
     @requests
     def extract_tables(self, docs, **kwargs):
         for doc in docs:
