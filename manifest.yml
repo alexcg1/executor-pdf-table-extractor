@@ -1,2 +1,5 @@
 manifest_version: 1
 name: PDFTableExtractor
+description: "Extract tables from PDFs and store them as chunks"
+url: https://github.com/alexcg1/executor-pdf-table-extractor
+keywords: [text, table, pdf]
