@@ -2,3 +2,4 @@ jtype: PDFTableExtractor
 metas:
   py_modules:
     - executor.py
+    - table_extractor_code.py
