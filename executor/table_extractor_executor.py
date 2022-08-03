@@ -30,5 +30,8 @@ class PDFTableExtractor(Executor):
 
             # store as chunks
             doc.chunks = tables
+            for chunk in doc.chunks:
+                chunk.tags["element_type"] = "table"
+                chunk.tags["table_content"] = chunk.text
 
             shutil.rmtree(out_root)
