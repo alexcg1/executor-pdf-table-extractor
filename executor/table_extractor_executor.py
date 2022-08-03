@@ -3,7 +3,7 @@ import shutil
 from glob import glob
 from docarray import Document, DocumentArray
 from jina import Executor, requests
-from table_extractor_code import MIN_WIDTH, MIN_HEIGHT, uploadPDF, writeCsvs, jsonToDoc
+from .helper import MIN_WIDTH, MIN_HEIGHT, uploadPDF, writeCsvs, jsonToDoc
 
 class PDFTableExtractor(Executor):
     @requests
